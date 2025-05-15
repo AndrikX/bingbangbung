@@ -56,8 +56,8 @@ flush() {
 
 deploy() {
   # Configure Git user for the commit
-  git config --global user.name "ZhgChgLiBot"
-  git config --global user.email "no-reply@zhgchg.li"
+  git config --global user.name "github-actions[bot]"
+  git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
   # Reset the current HEAD to prepare for new commits
   git update-ref -d HEAD
